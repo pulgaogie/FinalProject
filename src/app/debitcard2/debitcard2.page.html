@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+    <ion-back-button></ion-back-button>
+    <ion-title> Debit card payment</ion-title>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-footer>
+    <ion-row>
+      <ion-grid>
+       
+  <form  >
+<pre>
+    <ion-item lines="full">
+      <ion-label position="floating">Card number</ion-label>
+      <ion-input type="number" ></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Expiry Date</ion-label>
+      <ion-input type="text"  placeholder="(MM/YY)"></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">CVV number</ion-label>
+      <ion-input type="number" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Name as on the card</ion-label>
+      <ion-input type="text" ></ion-input>
+   </ion-item>
+   
+   <ion-item align-self-center>
+   
+        <ion-button type="submit" color="secondary" (click)="presentLoading()" routerLink="/book">Pay</ion-button>
+   
+  </ion-item>
+</pre>
+  </form>
+</ion-grid>
+</ion-row>
+</ion-footer>
+</ion-content>
+

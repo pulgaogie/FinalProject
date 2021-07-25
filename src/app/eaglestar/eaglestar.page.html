@@ -1,0 +1,63 @@
+<ion-header color="primary">
+  <ion-toolbar>
+    <ion-buttons >
+      <ion-back-button></ion-back-button>
+      <ion-title>Passenger Information</ion-title>
+    </ion-buttons>
+    
+  </ion-toolbar>
+</ion-header>
+  
+  <ion-content>
+    <ion-footer>
+      <ion-row>
+        <ion-grid>
+         
+    <form  >
+
+      <ion-item lines="full">
+        <ion-label position="floating">Name:</ion-label>
+        <ion-input type="text"  ></ion-input>
+      </ion-item>
+      <ion-item lines="full">
+        <ion-label position="floating">Contact Number:</ion-label>
+        <ion-input type="text"  ></ion-input>
+      </ion-item>
+      <ion-item lines="full">
+        <ion-label position="floating">Address:</ion-label>
+        <ion-input type="text" ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Age:</ion-label>
+        <ion-input type="number"></ion-input>
+     </ion-item>
+      <ion-item>
+      
+            <ion-label>Schedule Date</ion-label>
+<ion-select>
+  <ion-select-option>July 24, 2021: 8:00 AM</ion-select-option>
+  <ion-select-option>July 26, 2021: 9:00 AM</ion-select-option>
+  <ion-select-option>July 27, 2021: 8:00 AM</ion-select-option>
+  <ion-select-option>July 28, 2021: 8:00 AM</ion-select-option>
+  <ion-select-option>July 29, 2021: 9:00 AM</ion-select-option>
+  <ion-select-option>July 30, 2021: 10:00 AM</ion-select-option>
+  <ion-select-option>August 1, 2021: 1:00 PM</ion-select-option>
+  
+</ion-select>
+
+</ion-item >
+     
+     <ion-item align-self-center>
+      <ion-row>
+        <ion-col>
+          <ion-button type="submit" routerLink="/payment2" color="secondary" expand="block"  >Payment Option</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+   
+    </form>
+   
+  </ion-grid>
+  </ion-row>
+  </ion-footer>
+  </ion-content>

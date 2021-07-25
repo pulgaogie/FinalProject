@@ -1,0 +1,84 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons >
+      <ion-back-button slot="start"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-title>Bus</ion-title>
+</ion-header>
+
+<ion-content>
+  
+    <ion-row>
+      <ion-grid >
+    
+  <ion-item>
+  <ion-row >
+    <ion-col >
+      <div>
+        <ion-img src="./assets/bus.jpeg"></ion-img>
+       <ion-text>Choose your Bus</ion-text>
+       </div>
+      </ion-col>
+  </ion-row>
+</ion-item>
+    <ion-item lines="full" >
+    <ion-row>
+      <ion-col >
+       
+        <ion-button routerLink="/login" color="warning" expand="full" shape="round" >DLTB</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-item>
+
+  <ion-item lines="full" >
+    <ion-row>
+      <ion-col >
+       
+        <ion-button routerLink="/login1"  color="success" expand="full" color="warning" shape="round" >PHILTRANCO</ion-button>
+        
+      </ion-col>
+    </ion-row>
+  </ion-item>
+
+  <ion-item lines="full">
+    <ion-row>
+      <ion-col >
+       
+        <ion-button routerLink="/login2"  color="success" expand="full" color="warning"  shape="round" >EAGLESTAR</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-item>
+  
+  <ion-item lines="full">
+    <ion-row>
+      <ion-col >
+       
+        <ion-button color="success" expand="full" shape="round" color="warning" (click)="unavailable()">Five star</ion-button>
+        
+      </ion-col>
+    </ion-row>
+  </ion-item>
+
+  <ion-item lines="full">
+    <ion-row>
+      <ion-col >
+       
+        <ion-button color="success" expand="full" shape="round" color="warning" (click)="unavailable()">AB Liner</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-item>
+
+  <ion-item lines="full">
+    <ion-row>
+      <ion-col >
+       
+        <ion-button color="success" expand="full" shape="round" color="warning" (click)="unavailable()">Jam Liner</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-item>
+
+</ion-grid>
+</ion-row>
+
+</ion-content>

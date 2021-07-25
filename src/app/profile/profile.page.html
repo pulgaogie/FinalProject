@@ -1,0 +1,99 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons >
+      <ion-back-button></ion-back-button>
+      <ion-title>Select Your Desired Bus</ion-title>
+    </ion-buttons>
+  
+  </ion-toolbar>
+ 
+</ion-header>
+
+<ion-content>
+
+   
+    <pre>
+      <ion-slides [options]="option">
+    
+         <ion-slide>
+          <ion-card align-self-center>
+            <img src="../assets/DLTB.jpg">
+            <ion-label><h3>BUS NAME: DLTB Co</h3></ion-label> 
+          <ion-label><h3>Route: Ormoc- Manila</h3></ion-label>  
+          <ion-label><h3>Airconditioned</h3></ion-label> 
+          <ion-label><h3>Price: P1500</h3></ion-label>   
+          <ion-button color="warning" routerLink="/bus-seat" (click)="getbusData()">Book now</ion-button>   
+          </ion-card>
+        </ion-slide>
+    
+        <ion-slide>
+          <ion-card align-self-center>
+            <img src="../assets/philtranco.jpg">
+            <ion-label>  <h3 >BUS NAME: PHILTRANCO</h3></ion-label>
+            <ion-label><h3>Route: Ormoc- Manila</h3></ion-label>  
+            <ion-label><h3>Airconditioned</h3></ion-label> 
+            <ion-label><h3>Price: P1300</h3></ion-label>   
+            <ion-button color="warning" routerLink="/philtranco">Book now</ion-button>   
+          </ion-card>
+        </ion-slide>
+    
+        <ion-slide>
+          <ion-card align-self-center>
+            <img src="./assets/eaglestar.jpg">
+            <ion-label>  <h3>BUS NAME:EAGLESTAR</h3></ion-label>
+            <ion-label><h3>Route: Ormoc- Manila</h3></ion-label>  
+            <ion-label><h3>Ordinary</h3></ion-label> 
+            <ion-label><h3>Price: P1200</h3></ion-label>   
+            <ion-button color="warning" routerLink="/eaglestar" >Book now</ion-button>   
+          </ion-card>
+        </ion-slide>
+        
+      </ion-slides>
+    </pre>
+</ion-content>
+<!--
+<ion-header translucent no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button color="light">
+        <ion-icon slot="start" name="ios-arrow-back"></ion-icon>
+        Favorites
+      </ion-button>
+    </ion-buttons>
+    <ion-title>&nbsp;</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" src="../assets/logo.jpg"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true" slot="fixed" >
+  <div class="ion-padding">
+    The world is your oyster.
+    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+  </div>
+  <div class="card">
+    <div class="header">
+      <div class="avatar">
+        <img src="../assets/logo.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="user-meta ion-text-center">
+      <h3 class="playername">Roger Federer</h3>
+      <h5 class="country">Switzerland</h5>
+      <h6 class="ranking">Current ranking: <ion-chip>
+        <ion-label>2</ion-label>
+        </ion-chip>
+      </h6>
+    </div>
+    <ion-button expand="full" color="primary"></ion-button>
+    <ion-button expand="full" color="secondary">@RogerFederer on Twitter</ion-button>
+    <ion-button expand="full" color="secondary">View profile at ATP</ion-button>
+  </div>
+</ion-content>
+-->

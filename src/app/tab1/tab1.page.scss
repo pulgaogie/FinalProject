@@ -1,0 +1,23 @@
+ion-content{
+  --background: url(../../assets/image.jpeg) 0 0/100% 100% no-repeat;
+
+ion-grid{
+    border:4px;
+    margin-top:0%;
+  ion-col{
+    background-color:#fff ;
+  }
+}
+  ion-img{
+    height: 40px;
+    width:40px;
+  }
+  ion-text{
+    font-size:40px;
+    font-family:cursive;
+    text-align:center;
+    color:green;
+    margin-left:auto;
+  }
+ 
+}

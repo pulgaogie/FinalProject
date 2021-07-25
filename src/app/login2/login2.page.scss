@@ -1,0 +1,28 @@
+ion-content{
+    --background: url(../../assets/image.jpeg) 0 0/100% 100% no-repeat ;
+    ion-footer{
+        margin-top: 30%;
+        
+}
+ion-text{
+    font-size:25px;
+}
+    ion-label{
+        font-family: cursive;
+      
+        font-size:15px;
+        color: darkgreen;
+    }
+   
+    ion-row{
+        width:100%;
+
+    }
+    ion-button{
+        height:30px; 
+        font-size:15px;
+        color:white;
+        margin-top: 20px;
+    }
+   
+}

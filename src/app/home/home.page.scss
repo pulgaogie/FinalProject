@@ -1,0 +1,49 @@
+
+ion-content{
+    
+    ion-grid{
+        margin-top: 20%;
+
+        ion-button{
+         width: 200px;
+         margin:auto;
+         
+        }
+
+    }
+    span {
+          color:#fff;
+          display:flex;
+          justify-content: center;
+          align-content: center;
+          align-items: center;
+    }
+    
+      ion-label{
+
+          font-family: cursive;
+          font-size: 40px;
+          text-align: center;
+          color:green;
+          display: flex;
+          justify-content: center; 
+          align-content: center;
+          align-items: center;
+          
+      } 
+      ion-card{
+      
+        width:150px;
+          height:150px;
+          border-radius:50%;
+          margin:auto;
+          margin-top: 20%;
+      }
+      ion-avatar{
+        height:150px;
+        width:150px;
+      }
+      h2{
+        text-align: center;
+      }
+}

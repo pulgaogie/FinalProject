@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons >
+      <ion-back-button></ion-back-button>
+      <ion-title>Payment Information</ion-title>
+    </ion-buttons>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <pre>
+  <ion-item >
+  
+   <ion-label>
+    <h2>BUS NAME:DLTB CO.</h2>
+    <h2>Fully Airconditioned</h2> 
+   </ion-label>
+
+</ion-item>
+</pre>
+ 
+  <ion-row>
+    <ion-grid>
+  <ion-col align-self-center> 
+    
+    <ion-button  routerLink="/creditcard" expand="block" color="secondary" >Credit Card</ion-button>
+    <ion-button routerLink="/debitcard" expand="block" color="secondary" >Debit Card</ion-button>
+    <ion-button expand="block" color="secondary" (click)="unavailable()">Net Banking</ion-button>
+    <ion-button  routerLink="/wallet"  expand="block" color="secondary" >E-Wallet</ion-button>
+   
+  </ion-col>
+
+</ion-grid>
+</ion-row>
+<ion-item>
+<ion-label  color='danger'>PAYABLE: Php 1500</ion-label>
+
+  
+</ion-item>
+
+</ion-content>

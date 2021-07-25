@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons >
+      <ion-back-button></ion-back-button>
+      <ion-title>Register</ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+  <ion-footer >
+    <ion-row>
+      <ion-grid >
+        
+<form [formGroup]='myform' >
+    <ion-item lines="full">
+      <ion-text>Welcome</ion-text>
+      <ion-label position="floating">Firstname</ion-label>
+      <ion-input type='text' formControlName='firstname'></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Lastname</ion-label>
+      <ion-input type="text" formControlName='lastname'></ion-input>
+    
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Username</ion-label>
+      <ion-input type="text" formControlName='username' required></ion-input>
+    
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" formControlName='password' ></ion-input>
+    
+    </ion-item>
+ 
+    <ion-item>
+    <ion-row>
+      <ion-col >
+       
+        <ion-button color="success" expand="full" shape="round" routerLink="/dltb" (click)="insertData()" >Register</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-item>
+
+  </form>
+  <ion-item>
+    <ion-label><a href=" ">Forgot password?</a></ion-label>
+    <ion-label slot="end" class="register"><a href="/dltb">Register?</a></ion-label>
+  </ion-item>
+
+</ion-grid>
+</ion-row>
+</ion-footer>
+</ion-content>
